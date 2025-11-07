@@ -12,9 +12,9 @@ A Homebrew **tap** for installing GUI or binary applications (`casks`) maintaine
 
 ## 🚀 Available Casks
 
-| Cask                            | Description                              |
-| ------------------------------- | ---------------------------------------- |
-| [`tileswm`](./Casks/tileswm.rb) | A short one-line description of your app |
+| Cask                            | Description                                                  |
+| ------------------------------- | ------------------------------------------------------------ |
+| [`tileswm`](./Casks/tileswm.rb) | FancyZones-inspired window manager with profile-based tiling |
 
 ---
 
