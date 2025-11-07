@@ -1,18 +1,29 @@
-# Denissteinhorst Tap
+# 🍺 denissteinhorst Tap
 
-## How do I install these formulae?
+[![brew tap](https://img.shields.io/badge/homebrew-tap-blue)](https://github.com/denissteinhorst/homebrew-tap)
+[![license](https://img.shields.io/badge/license-EULA-lightgrey)](./EULA.txt)
 
-`brew install denissteinhorst/tap/<formula>`
+A Homebrew **tap** for installing GUI or binary applications (`casks`) maintained by **denissteinhorst**.
 
-Or `brew tap denissteinhorst/tap` and then `brew install <formula>`.
+> ⚖️ This software is distributed under a custom **End User License Agreement (EULA)**.
+> See the [EULA.txt](./EULA.txt) file for full terms and conditions.
 
-Or, in a `brew bundle` `Brewfile`:
+---
 
-```ruby
-tap "denissteinhorst/tap"
-brew "<formula>"
+## 🚀 Available Casks
+
+| Cask                            | Description                              |
+| ------------------------------- | ---------------------------------------- |
+| [`tileswm`](./Casks/tileswm.rb) | A short one-line description of your app |
+
+---
+
+## 💾 Installation
+
+You can install casks from this tap in a few ways:
+
+### **1️⃣ Direct install (recommended)**
+
+```bash
+brew install --cask denissteinhorst/tap/tileswm
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
